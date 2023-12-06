@@ -3,16 +3,16 @@ import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 
 const Register = () => {
-    const handleSubmit =(e)=>{
-        e.preventDefault()
-        const form = e.target
-        const name = form.name.value
-        const email = form.email.value
-        const password = form.password.value
-        alert(`from submit  ${name}, ${email}, ${password}`)
-    }
-    return (
-        <div className="flex items-center justify-center h-screen">
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const name = form.name.value;
+    const email = form.email.value;
+    const password = form.password.value;
+    alert(`from submit  ${name}, ${email}, ${password}`);
+  };
+  return (
+    <div className="flex items-center justify-center h-auto py-10">
       <div className="card w-full max-w-sm bg-base-100 shadow py-5">
         <h1 className="text-3xl font-semibold text-center">Sign Up</h1>
         <form className="card-body" onSubmit={handleSubmit}>
@@ -80,7 +80,7 @@ const Register = () => {
         </form>
       </div>
     </div>
-    );
+  );
 };
 
 export default Register;

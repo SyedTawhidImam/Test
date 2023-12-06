@@ -1,0 +1,230 @@
+[
+    {
+        "categoryId": "01",
+        "category": "UI/UX DESIGN",
+        "blogs": [
+            {
+                "blogId": "201",
+                "bannerImage": "banner1.jpg",
+                "title": "Title 1",
+                "subtitle": "Subtitle 1",
+                "postDate": "2023-12-07",
+                "author": [
+                    {
+                        "authorId": "77",
+                        "image": "image.png",
+                        "name": "Khan"
+                    }
+                ],
+                "postedByImage": "author1.jpg",
+                "article": "Lorem ipsum dolor sit amet.",
+                "image": "article1.jpg"
+            },
+            {
+                "blogId": "202",
+                "bannerImage": "banner1.jpg",
+                "title": "Title 1",
+                "subtitle": "Subtitle 1",
+                "postDate": "2023-12-07",
+                "author": [
+                    {
+                        "authorId": "77",
+                        "image": "image.png",
+                        "name": "Khan"
+                    }
+                ],
+                "postedByImage": "author1.jpg",
+                "article": "Lorem ipsum dolor sit amet.",
+                "image": "article1.jpg"
+            },
+            {
+                "blogId": "203",
+                "bannerImage": "banner1.jpg",
+                "title": "Title 1",
+                "subtitle": "Subtitle 1",
+                "postDate": "2023-12-07",
+                "author": [
+                    {
+                        "authorId": "77",
+                        "image": "image.png",
+                        "name": "Khan"
+                    }
+                ],
+                "postedByImage": "author1.jpg",
+                "article": "Lorem ipsum dolor sit amet.",
+                "image": "article1.jpg"
+            }
+        ]
+    },
+    {
+        "categoryId": "02",
+        "category": "FRONT END-DEVELOPER",
+        "blogs": [
+            {
+                "blogId": "301",
+                "bannerImage": "banner1.jpg",
+                "title": "Title 1",
+                "subtitle": "Subtitle 1",
+                "postDate": "2023-12-07",
+                "author": [
+                    {
+                        "authorId": "77",
+                        "image": "image.png",
+                        "name": "Khan"
+                    }
+                ],
+                "postedByImage": "author1.jpg",
+                "article": "Lorem ipsum dolor sit amet.",
+                "image": "article1.jpg"
+            },
+            {
+                "blogId": "302",
+                "bannerImage": "banner1.jpg",
+                "title": "Title 1",
+                "subtitle": "Subtitle 1",
+                "postDate": "2023-12-07",
+                "author": [
+                    {
+                        "authorId": "77",
+                        "image": "image.png",
+                        "name": "Khan"
+                    }
+                ],
+                "postedByImage": "author1.jpg",
+                "article": "Lorem ipsum dolor sit amet.",
+                "image": "article1.jpg"
+            },
+            {
+                "blogId": "303",
+                "bannerImage": "banner1.jpg",
+                "title": "Title 1",
+                "subtitle": "Subtitle 1",
+                "postDate": "2023-12-07",
+                "author": [
+                    {
+                        "authorId": "77",
+                        "image": "image.png",
+                        "name": "Khan"
+                    }
+                ],
+                "postedByImage": "author1.jpg",
+                "article": "Lorem ipsum dolor sit amet.",
+                "image": "article1.jpg"
+            }
+        ]
+    },
+    {
+        "categoryId": "03",
+        "category": "BACK END-DEVELOPER",
+        "blogs": [
+            {
+                "blogId": "401",
+                "bannerImage": "banner1.jpg",
+                "title": "Title 1",
+                "subtitle": "Subtitle 1",
+                "postDate": "2023-12-07",
+                "author": [
+                    {
+                        "authorId": "77",
+                        "image": "image.png",
+                        "name": "Khan"
+                    }
+                ],
+                "postedByImage": "author1.jpg",
+                "article": "Lorem ipsum dolor sit amet.",
+                "image": "article1.jpg"
+            },
+            {
+                "blogId": "402",
+                "bannerImage": "banner1.jpg",
+                "title": "Title 1",
+                "subtitle": "Subtitle 1",
+                "postDate": "2023-12-07",
+                "author": [
+                    {
+                        "authorId": "77",
+                        "image": "image.png",
+                        "name": "Khan"
+                    }
+                ],
+                "postedByImage": "author1.jpg",
+                "article": "Lorem ipsum dolor sit amet.",
+                "image": "article1.jpg"
+            },
+            {
+                "blogId": "403",
+                "bannerImage": "banner1.jpg",
+                "title": "Title 1",
+                "subtitle": "Subtitle 1",
+                "postDate": "2023-12-07",
+                "author": [
+                    {
+                        "authorId": "77",
+                        "image": "image.png",
+                        "name": "Khan"
+                    }
+                ],
+                "postedByImage": "author1.jpg",
+                "article": "Lorem ipsum dolor sit amet.",
+                "image": "article1.jpg"
+            }
+        ]
+    },
+    {
+        "categoryId": "04",
+        "category": "DATA ANALYSIS",
+        "blogs": [
+            {
+                "blogId": "501",
+                "bannerImage": "banner1.jpg",
+                "title": "Title 1",
+                "subtitle": "Subtitle 1",
+                "postDate": "2023-12-07",
+                "author": [
+                    {
+                        "authorId": "77",
+                        "image": "image.png",
+                        "name": "Khan"
+                    }
+                ],
+                "postedByImage": "author1.jpg",
+                "article": "Lorem ipsum dolor sit amet.",
+                "image": "article1.jpg"
+            },
+            {
+                "blogId": "502",
+                "bannerImage": "banner1.jpg",
+                "title": "Title 1",
+                "subtitle": "Subtitle 1",
+                "postDate": "2023-12-07",
+                "author": [
+                    {
+                        "authorId": "77",
+                        "image": "image.png",
+                        "name": "Khan"
+                    }
+                ],
+                "postedByImage": "author1.jpg",
+                "article": "Lorem ipsum dolor sit amet.",
+                "image": "article1.jpg"
+            },
+            {
+                "blogId": "503",
+                "bannerImage": "banner1.jpg",
+                "title": "Title 1",
+                "subtitle": "Subtitle 1",
+                "postDate": "2023-12-07",
+                "author": [
+                    {
+                        "authorId": "77",
+                        "image": "image.png",
+                        "name": "Khan"
+                    }
+                ],
+                "postedByImage": "author1.jpg",
+                "article": "Lorem ipsum dolor sit amet.",
+                "image": "article1.jpg"
+            }
+        ]
+    }
+]
