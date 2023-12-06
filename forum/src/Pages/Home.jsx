@@ -1,9 +1,10 @@
+import ContactSection from "../Components/ContactSection";
 
 
 const Home = () => {
     return (
         <div>
-          this is home  
+          <ContactSection/>
         </div>
     );
 };
