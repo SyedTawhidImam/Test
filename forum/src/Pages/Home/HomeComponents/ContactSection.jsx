@@ -4,7 +4,7 @@ const ContactSection = () => {
   return (
     <div className="space-y-16 py-20 bg-[#FAFAFA]">
       <div className="flex space-y-4 flex-col items-center justify-center">
-        <h1 className="text-3xl font-bold">Contact With Us</h1>
+        <h1 className="text-3xl font-bold text-black">Contact With Us</h1>
         <p className="w-[50%] text-center text-gray-400">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
@@ -50,7 +50,7 @@ const ContactSection = () => {
               <input
                 type="text"
                 placeholder="Your Name"
-                className="input input-bordered border-gray-300 focus:border-none"
+                className="input bg-white input-bordered border-gray-300 focus:border-none"
                 required
               />
             </div>
@@ -61,7 +61,7 @@ const ContactSection = () => {
               <input
                 type="email"
                 placeholder="email"
-                className="input border-gray-300 focus:border-none input-bordered"
+                className="input bg-white border-gray-300 focus:border-none input-bordered"
                 required
               />
             </div>
@@ -72,12 +72,12 @@ const ContactSection = () => {
               <textarea
                 type="text"
                 placeholder="Write your message"
-                className="input h-20 border-gray-300 focus:border-none input-bordered"
+                className="input h-20 border-gray-300 focus:border-none bg-white input-bordered"
                 required
               />
             </div>
             <div className="form-control mt-6">
-              <button className="btn bg-[#B68C5A]  text-white hover:bg-white hover:border hover:border-[#B68C5A] hover:text-black">
+              <button className="btn bg-[#B68C5A]  text-white hover:bg-white border border-[#B68C5A] hover:border-[#B68C5A] hover:text-black">
                 Send Message
               </button>
             </div>

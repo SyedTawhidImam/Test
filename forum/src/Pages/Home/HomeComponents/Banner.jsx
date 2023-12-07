@@ -1,13 +1,13 @@
-import bannerImage from "../assets/bannerimg.png";
+import bannerImage from "../../../assets/bannerimg.png";
 
 const Banner = () => {
   return (
-    <div className="h-auto py-20 flex justify-center items-center"
+    <div className="h-auto py-20 flex  justify-center items-center"
       style={{
         backgroundImage: "url(https://i.postimg.cc/Dwvv1xH8/banner-bg.png)",
       }}
     >
-      <div className="flex gap-8 lg:gap-0 items-center justify-center flex-col-reverse text-center lg:text-left lg:flex-row-reverse max-w-[1200px] mx-auto">
+      <div className="flex gap-8 lg:gap-0 items-center justify-center flex-col-reverse text-center lg:text-left lg:flex-row-reverse max-w-[1200px] mx-auto ">
         <img src={bannerImage} className="w-[700px]" />
         <div className="text-white">
           <p className="text-3xl">Learn New Technology</p>
