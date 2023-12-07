@@ -1,9 +1,17 @@
 
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Blog from './Blog';
 
 const HomeContent = () => {
+    const [data, setData]=useState([])
+    useEffect(()=>{
+        fetch("/data.json")
+        .then(res => res.json())
+        .then(data => setData(data[0].blogs))
+    },[])
     return (
-        <div className='flex  w-[90%] mx-auto my-20'>
+        <div className='flex  w-[90%] mx-auto my-20 gap-14 max-w-[1200px]'>
 
 
 
@@ -24,12 +32,14 @@ const HomeContent = () => {
             
             
             {/* Blog section */}
-            <div className='w-full '>
-                BLOGS
+            <div className='w-full flex flex-col gap-5'>
+                {
+                    data.map((d,idx)=> <Blog key={idx} content={d}></Blog>)
+                }
             </div>
 
 
-            
+
         </div>
     );
 };

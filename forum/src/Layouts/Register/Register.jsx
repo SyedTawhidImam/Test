@@ -12,74 +12,83 @@ const Register = () => {
     alert(`from submit  ${name}, ${email}, ${password}`);
   };
   return (
-    <div className="flex items-center justify-center bg-white  py-10 h-screen">
-      <div className="card w-full max-w-sm bg-white border shadow py-5">
-        <h1 className="text-3xl font-semibold text-center">Sign Up</h1>
-        <form className="card-body" onSubmit={handleSubmit}>
-          <div className="form-control ">
-            <label className="label">
-              <span className="label-text">Name</span>
-            </label>
-            <input
-              type="text"
-              placeholder="Your Name"
-              name="name"
-              className="input input-bordered border-gray-300 focus:border-none bg-white"
-              required
-            />
-          </div>
-          <div className="form-control">
-            <label className="label">
-              <span className="label-text">Email</span>
-            </label>
-            <input
-              type="email"
-              placeholder="email"
-              name="email"
-              className="input border-gray-300 focus:border-none input-bordered bg-white"
-              required
-            />
-          </div>
-          <div className="form-control">
-            <label className="label">
-              <span className="label-text">Password</span>
-            </label>
-            <input
-              type="password"
-              placeholder="password"
-              name="password"
-              className="input border-gray-300 focus:border-none input-bordered bg-white"
-              required
-            />
-          </div>
-          <div className="form-control mt-6">
-            <button className="btn bg-[#B68C5A]  text-white hover:bg-white hover:border border-[#B68C5A] hover:border-[#B68C5A] hover:text-black">
-              Sign Up
-            </button>
-          </div>
-          <div className="space-y-4 mt-3">
-            <h1 className="text-center text-sm">Or Sign in With</h1>
-            <div className="flex items-center justify-center gap-5">
-              <Link className="p-2 bg-gray-200 rounded-full">
-                <FaFacebookF></FaFacebookF>
-              </Link>
-              <Link className="p-2 bg-gray-200 rounded-full">
-                <FaLinkedinIn></FaLinkedinIn>
-              </Link>
-              <Link className="p-2 bg-gray-200 rounded-full">
-                <FcGoogle></FcGoogle>
-              </Link>
-            </div>
-            <h1 className="text-center">
-              Already Have an account?{" "}
-              <Link to="/login" className="text-[#B68C5A]">
-                Sign in
-              </Link>
-            </h1>
-          </div>
-        </form>
+    <>
+      <div className="pt-5">
+        <h1 className=" text-2xl max-w-[1200px] mx-auto">
+          <Link className="" to="/">
+            my<span className="text-[#B68C5A] font-bold text-2xl">F</span>orum
+          </Link>
+        </h1>
       </div>
-    </div>
+      <div className="flex items-center justify-center bg-white  py-10 h-screen">
+        <div className="card w-full max-w-sm bg-white border shadow py-5">
+          <h1 className="text-3xl font-semibold text-center">Sign Up</h1>
+          <form className="card-body" onSubmit={handleSubmit}>
+            <div className="form-control ">
+              <label className="label">
+                <span className="label-text">Name</span>
+              </label>
+              <input
+                type="text"
+                placeholder="Your Name"
+                name="name"
+                className="input input-bordered border-gray-300 focus:border-none bg-white"
+                required
+              />
+            </div>
+            <div className="form-control">
+              <label className="label">
+                <span className="label-text">Email</span>
+              </label>
+              <input
+                type="email"
+                placeholder="email"
+                name="email"
+                className="input border-gray-300 focus:border-none input-bordered bg-white"
+                required
+              />
+            </div>
+            <div className="form-control">
+              <label className="label">
+                <span className="label-text">Password</span>
+              </label>
+              <input
+                type="password"
+                placeholder="password"
+                name="password"
+                className="input border-gray-300 focus:border-none input-bordered bg-white"
+                required
+              />
+            </div>
+            <div className="form-control mt-6">
+              <button className="btn bg-[#B68C5A]  text-white hover:bg-white hover:border border-[#B68C5A] hover:border-[#B68C5A] hover:text-black">
+                Sign Up
+              </button>
+            </div>
+            <div className="space-y-4 mt-3">
+              <h1 className="text-center text-sm">Or Sign in With</h1>
+              <div className="flex items-center justify-center gap-5">
+                <Link className="p-2 bg-gray-200 rounded-full">
+                  <FaFacebookF></FaFacebookF>
+                </Link>
+                <Link className="p-2 bg-gray-200 rounded-full">
+                  <FaLinkedinIn></FaLinkedinIn>
+                </Link>
+                <Link className="p-2 bg-gray-200 rounded-full">
+                  <FcGoogle></FcGoogle>
+                </Link>
+              </div>
+              <h1 className="text-center">
+                Already Have an account?{" "}
+                <Link to="/login" className="text-[#B68C5A]">
+                  Sign in
+                </Link>
+              </h1>
+            </div>
+          </form>
+        </div>
+      </div>
+    </>
   );
 };
 

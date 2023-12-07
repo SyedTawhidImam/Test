@@ -6,7 +6,9 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <>
+      <div className="border-b">
       <Navbar></Navbar>
+      </div>
       <Outlet></Outlet>
       <Footer></Footer>
     </>

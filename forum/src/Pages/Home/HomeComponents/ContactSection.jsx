@@ -2,7 +2,7 @@ import { MdLocationPin, MdOutlineEmail, MdAddIcCall } from "react-icons/md";
 import { IoMdTime } from "react-icons/io";
 const ContactSection = () => {
   return (
-    <div className="space-y-16 py-20 bg-[#FAFAFA]">
+    <div className="space-y-16 py-20 bg-[#FAFAFA]" id="contactus">
       <div className="flex space-y-4 flex-col items-center justify-center">
         <h1 className="text-3xl font-bold text-black">Contact With Us</h1>
         <p className="w-[50%] text-center text-gray-400">
