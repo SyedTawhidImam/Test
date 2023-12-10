@@ -1,0 +1,23 @@
+[
+    {
+        "userId": "01",
+        "userName": "mahsin",
+        "email": "mahsin@gmail.com",
+        "password": "1dfdf565r",
+        "role": "admin"
+    },
+    {
+        "userId": "02",
+        "userName": "shaon",
+        "email": "shaon@gmail.com",
+        "password": "1565dfdfr",
+        "role": "admin"
+    },
+    {
+        "userId": "03",
+        "userName": "robin",
+        "email": "robin@gmail.com",
+        "password": "156iopr",
+        "role": "admin"
+    }
+]

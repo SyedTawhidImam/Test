@@ -1,0 +1,22 @@
+[
+    {
+        "categoryId": "01",
+        "categoryName": "UI/UX DESIGN",
+        "categoryType": "Tach"
+    },
+    {
+        "categoryId": "02",
+        "categoryName": "FRONT END-DEVELOPER",
+        "categoryType": "Tach"
+    },
+    {
+        "categoryId": "03",
+        "categoryName": "BACK END-DEVELOPER",
+        "categoryType": "Tach"
+    },
+    {
+        "categoryId": "04",
+        "categoryName": "DATA ANALYSIS",
+        "categoryType": "Tach"
+    }
+]
