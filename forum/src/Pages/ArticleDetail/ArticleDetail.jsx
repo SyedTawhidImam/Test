@@ -25,10 +25,10 @@ const ArticleDetail = () => {
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpdhp_N6n1ZWc6RKTaQSLRNvxs6jOi2Ojkxg&usqp=CAU",
   };
-  const articleLength = blog.article.length
+  const articleLength = blog.article.length;
   return (
-    <div className="min-h-screen max-w-[1200px] mx-auto my-20 flex gap-9 ">
-      <div className="w-[30%] ">
+    <div className="min-h-screen max-w-[1200px] mx-auto my-20 lg:flex gap-9 ">
+      <div className="lg:w-[30%] ">
         <div className=" flex flex-col gap-5">
           <div className="bg-[#B68C5A] text-5xl font-semibold text-white p-7 rounded-md">
             <h1>Categories</h1>
@@ -68,8 +68,8 @@ const ArticleDetail = () => {
       </div>
       <div className="w-full">
         <img src={blog.bannerImage} alt="" className="w-full h-96" />
-        <div className="bg-[#F3F3F3] px-16 py-8 space-y-8 rounded-b-lg">
-          <div className="flex justify-between">
+        <div className="bg-[#F3F3F3] md:px-16 px-8 py-8 space-y-8 rounded-b-lg">
+          <div className="md:flex space-y-5 md:space-y-0 justify-between">
             <div className="flex gap-5 items-center">
               <img
                 src={blog.author[0].image}
@@ -87,11 +87,17 @@ const ArticleDetail = () => {
           </div>
           <div className="space-y-3">
             <h1 className="font-bold text-4xl">{blog.title}</h1>
-            <h1 className="font-semibold text-2xl text-gray-500">{blog.subtitle}</h1>
+            <h1 className="font-semibold text-2xl text-gray-500">
+              {blog.subtitle}
+            </h1>
           </div>
-          <p className="text-gray-400">{blog.article.slice(0, articleLength/2)}</p>
-          <img src={blog.image} alt="" className="h-60"/>
-          <p className="text-gray-400">{blog.article.slice(articleLength/2)}</p>
+          <p className="text-gray-400">
+            {blog.article.slice(0, articleLength / 2)}
+          </p>
+          <img src={blog.image} alt="" className="h-60" />
+          <p className="text-gray-400">
+            {blog.article.slice(articleLength / 2)}
+          </p>
         </div>
       </div>
     </div>

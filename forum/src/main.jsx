@@ -9,6 +9,12 @@ import Home from "./Pages/Home/Home.jsx";
 import AuthProvider from "./Provider/AuthProvider/AuthProvider.jsx";
 import ArticleDetail from "./Pages/ArticleDetail/ArticleDetail.jsx";
 import ErrorElement from "./Pages/ErrorPage/ErrorElement.jsx";
+import Dashboard from "./Layouts/DashBoard/Dashboard.jsx";
+import MyHome from "./Layouts/DashBoard/Components/MyHome.jsx";
+import MyBlogs from "./Layouts/DashBoard/Components/MyBlogs.jsx";
+import ManageUsers from "./Layouts/DashBoard/Components/ManageUsers.jsx";
+import AddBlogs from "./Layouts/DashBoard/Components/AddBlogs.jsx";
+import UpdateBlog from "./Layouts/DashBoard/Components/UpdateBlog.jsx";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +41,33 @@ const router = createBrowserRouter([
     path: "/register",
     element: <Register></Register>,
     errorElement:<ErrorElement></ErrorElement>
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard></Dashboard>,
+    errorElement:<ErrorElement></ErrorElement>,
+    children:[
+      {
+        path:'/dashboard',
+        element:<MyHome></MyHome>
+      },
+      {
+        path:'addblog',
+        element:<AddBlogs></AddBlogs>
+      },
+      {
+        path:'updateblog',
+        element:<UpdateBlog></UpdateBlog>
+      },
+      {
+        path:'manageusers',
+        element:<ManageUsers></ManageUsers>
+      },
+      {
+        path:'myblogs',
+        element:<MyBlogs></MyBlogs>
+      },
+    ]
   },
 ]);
 

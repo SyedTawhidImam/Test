@@ -15,6 +15,16 @@ const Navbar = () => {
       </li>
       <li className="text-base">
         <NavLink
+          to="/dashboard"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "text-[#B68C5A] font-semibold" : ""
+          }
+        >
+          Dashboard
+        </NavLink>
+      </li>
+      <li className="text-base">
+        <NavLink
           to="/blogs"
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "text-[#B68C5A]font-semibold " : ""

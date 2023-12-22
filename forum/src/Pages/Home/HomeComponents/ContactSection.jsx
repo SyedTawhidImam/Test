@@ -11,7 +11,7 @@ const ContactSection = () => {
           humour.
         </p>
       </div>
-      <div className="flex">
+      <div className="lg:flex space-y-10 lg:space-y-0">
         <div className=" flex-1">
           <div className="grid grid-cols-2 bg-white w-[80%] mx-auto shadow-lg rounded-[13px]">
             <div className="flex flex-col items-center justify-center text-center p-10 border-2 border-[#B68C5A] border-t-0 border-l-0">

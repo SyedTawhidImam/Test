@@ -11,12 +11,12 @@ const HomeContent = () => {
         .then(data => setData(data[0].blogs))
     },[])
     return (
-        <div className='flex  w-[90%] mx-auto my-20 gap-14 max-w-[1200px]'>
+        <div className='lg:flex  w-[90%] mx-auto my-20 gap-14 max-w-[1200px]'>
 
 
 
             {/* Categories section */}
-            <div className='w-[30%] flex flex-col gap-5'>
+            <div className='lg:w-[30%] flex flex-col gap-5'>
                 <div className='bg-[#B68C5A] text-5xl font-semibold text-white p-7 rounded-md'>
                     <h1>Categories</h1>
                 </div>

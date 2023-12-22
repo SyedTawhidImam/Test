@@ -1,20 +1,18 @@
-import { Link, useRouteError } from "react-router-dom";
+import { Link } from "react-router-dom";
 import PropTypes from 'prop-types'
+import errorimg from "../../assets/404.png"
 const ErrorElement = () => {
-  const error = useRouteError();
-  // if(error){
-  //   return <Navigate to={link}></Navigate>
-  // }
   return (
     <div className="min-h-screen flex justify-center items-center">
       <div className="">
-      <p className="text-8xl text-center mb-4 font-semibold">Opps</p>
-      <p className="text-2xl text-center">Please check your internet Connection</p>
-      <p className="text-center font-semibold">Or</p>
-      <p className="text-3xl text-center">Please check the path name carefully</p>
-      <p className="text-4xl text-center">Learn more about the error in google</p>
-      <p className="text-center text-6xl mt-2 font-extrabold">{error.status || error.message}</p>
-      <Link to='/'><button className="btn">Back To Home</button></Link>
+      <div className="text-center space-y-3">
+        <h1 className="text-6xl font-bold">Sorry</h1>
+        <p className="text-lg font-semibold text-gray-400">This page is not Found</p>
+      </div>
+      <img src={errorimg} alt="" className="w-[450px]" />
+      <div className="text-center">
+      <Link to='/'><button className=" text-white py-2 hover:text-black border hover:bg-white hover:border-[#B68C5A] px-8 text-sm font-semibold rounded-md bg-[#B68C5A] ">Back To Home</button></Link>
+      </div>
       </div>
     </div>
   );
