@@ -84,7 +84,7 @@ const Navbar = () => {
             </ul>
           </div>
           <h1 className="text-center text-2xl">
-            my<span className="text-[#B68C5A] font-bold text-2xl">F</span>orum
+            <span className="text-[#B68C5A] font-bold text-2xl">D</span>ahuk
           </h1>
         </div>
 

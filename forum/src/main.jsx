@@ -27,8 +27,9 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path:'articledetails',
-        element:<ArticleDetail></ArticleDetail>
+        path:'articledetails/:id',
+        element:<ArticleDetail></ArticleDetail>,
+        loader: ({params})=>fetch(`https://forum-server-six.vercel.app/v1/blogs/${params.id}`)
       }
     ],
   },

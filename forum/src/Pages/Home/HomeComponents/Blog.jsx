@@ -1,9 +1,9 @@
-import PropTypes from "prop-type";
+import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import { CiBookmark } from "react-icons/ci";
 const Blog = ({ content }) => {
-    console.log(content)
+    // console.log(typeof content)
   return (
     <div className="rounded">
       
@@ -26,13 +26,13 @@ const Blog = ({ content }) => {
         <div className="space-y-4">
             <h1 className="font-bold text-2xl">{content.subtitle.slice(0,70)}...</h1>
             {/* <div></div> */}
-            <Link to='/articledetails'><button className="flex items-center gap-2 py-2 px-5 border rounded-full mt-4 text-xs hover:text-white hover:bg-[#B68C5A] text-[#B68C5A] border-[#B68C5A]">Read More <FaArrowRight></FaArrowRight></button></Link>
+            <Link to={`/articledetails/${content._id}`}><button className="flex items-center gap-2 py-2 px-5 border rounded-full mt-4 text-xs hover:text-white hover:bg-[#B68C5A] text-[#B68C5A] border-[#B68C5A]">Read More <FaArrowRight></FaArrowRight></button></Link>
         </div>
       </div>
     </div>
   );
 };
 Blog.propTypes = {
-  content: PropTypes.object,
+  content: PropTypes.any,
 };
 export default Blog;

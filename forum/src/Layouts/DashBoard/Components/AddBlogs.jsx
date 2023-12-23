@@ -27,7 +27,7 @@ const AddBlogs = () => {
                 <option value="others">Others</option>
                 <option value="UI/UX DESIGN">UI/UX DESIGN</option>
                 <option value="SOFTWARE ENGINEERING">SOFTWARE ENGINEERING</option>
-                <option value="FRONT END-DEVELOPER">FRONT END-DEVELOPER</option>
+                <option value="FRONT-END DEVELOPER">FRONT-END DEVELOPER</option>
                 <option value="FULL STACK WEB DEVELOPER">FULL STACK WEB DEVELOPER</option>
                 <option value="DATA ANALYSIS">DATA ANALYSIS</option>
               </select>

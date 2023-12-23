@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="bg-[#363B3F]">
       <div className="max-w-[1200px] mx-auto space-y-5 py-10">
         <h1 className="text-center text-lg text-white">
-          my<span className="text-[#E58B00] font-bold text-2xl">F</span>orum
+          <span className="text-[#B68C5A] font-bold text-2xl">D</span>ahuk
         </h1>
         <ul className="flex text-gray-400 items-center justify-center gap-5">
             <li><Link>Home</Link></li>

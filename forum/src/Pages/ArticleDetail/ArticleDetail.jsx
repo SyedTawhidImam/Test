@@ -1,30 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { CiBookmark } from "react-icons/ci";
 const ArticleDetail = () => {
-  const blog = {
-    blogId: "201",
-    bannerImage:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS54jlVvQn3JEa31YDoeVifIIscG_MyBpRXPw&usqp=CAU",
-    title: "The Art of User Interface Design",
-    subtitle:
-      " Exploring principles, trends, and best practices in creating visually appealing and user-friendly interfaces.",
-    postDate: "2023-12-07",
-    author: [
-      {
-        authorId: "77",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwme89cM8YZvHcybGrZl_Obd9U9p5QabozJQ&usqp=CAU",
-        name: "Shaon bishwas",
-      },
-    ],
-    postedByImage: "author1.jpg",
-    article:
-      "So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpdhp_N6n1ZWc6RKTaQSLRNvxs6jOi2Ojkxg&usqp=CAU",
-  };
+
+  const blog = useLoaderData()
+  // console.log(blog)
   const articleLength = blog.article.length;
   return (
     <div className="min-h-screen max-w-[1200px] mx-auto my-20 lg:flex gap-9 ">
@@ -35,19 +16,19 @@ const ArticleDetail = () => {
           </div>
           <ul className="bg-[#F3F3F3] flex flex-col gap-5 p-7 rounded-md">
             <li className="bg-white font-semibold p-3 rounded-md">
-              <Link>UI/UX DESIGN</Link>
+              <Link to='/'>UI/UX DESIGN</Link>
             </li>
             <li className="bg-white font-semibold p-3 rounded-md">
-              <Link>SOFTWARE ENGINEERING</Link>
+              <Link to='/'>SOFTWARE ENGINEERING</Link>
             </li>
             <li className="bg-white font-semibold p-3 rounded-md">
-              <Link>FRONT END-DEVELOPER</Link>
+              <Link to='/'>FRONT-END DEVELOPER</Link>
             </li>
             <li className="bg-white font-semibold p-3 rounded-md">
-              <Link>FULL STACK WEB DEVELOPER</Link>
+              <Link to='/'>FULL STACK WEB DEVELOPER</Link>
             </li>
             <li className="bg-white font-semibold p-3 rounded-md">
-              <Link>DATA ANALYSIS</Link>
+              <Link to='/'>DATA ANALYSIS</Link>
             </li>
           </ul>
         </div>

@@ -1,230 +1,50 @@
 [
-    {
-        "categoryId": "01",
-        "category": "UI/UX DESIGN",
-        "blogs": [
-            {
-                "blogId": "201",
-                "bannerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS54jlVvQn3JEa31YDoeVifIIscG_MyBpRXPw&usqp=CAU",
-                "title": "The Art of User Interface Design",
-                "subtitle": " Exploring principles, trends, and best practices in creating visually appealing and user-friendly interfaces.",
-                "postDate": "2023-12-07",
-                "author": [
-                    {
-                        "authorId": "77",
-                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwme89cM8YZvHcybGrZl_Obd9U9p5QabozJQ&usqp=CAU",
-                        "name": "Shaon bishwas"
-                    }
-                ],
-                "postedByImage": "author1.jpg",
-                "article": "So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpdhp_N6n1ZWc6RKTaQSLRNvxs6jOi2Ojkxg&usqp=CAU"
-            },
-            {
-                "blogId": "202",
-                "bannerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpdhp_N6n1ZWc6RKTaQSLRNvxs6jOi2Ojkxg&usqp=CAU",
-                "title": "UX Research Unveiled",
-                "subtitle": " A deep dive into the methods and importance of user experience research for designing products that truly resonate with users.",
-                "postDate": "2023-12-07",
-                "author": [
-                    {
-                        "authorId": "77",
-                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwme89cM8YZvHcybGrZl_Obd9U9p5QabozJQ&usqp=CAU",
-                        "name": "Mahsin Mia"
-                    }
-                ],
-                "postedByImage": "author1.jpg",
-                "article": "So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTImFJmnyqDi9VdQ8PLyQI-Uc2xYN8_YIwhmA&usqp=CAU"
-            },
-            {
-                "blogId": "203",
-                "bannerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTImFJmnyqDi9VdQ8PLyQI-Uc2xYN8_YIwhmA&usqp=CAU",
-                "title": "The Psychology Behind UI/UX Decisions",
-                "subtitle": "Understanding how cognitive psychology influences user behavior and designing interfaces that align with user expectations.",
-                "postDate": "2023-12-07",
-                "author": [
-                    {
-                        "authorId": "77",
-                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwme89cM8YZvHcybGrZl_Obd9U9p5QabozJQ&usqp=CAU",
-                        "name": "Robin mia"
-                    }
-                ],
-                "postedByImage": "author1.jpg",
-                "article": "So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.",
-                "image": "article1.jpg"
-            }
-        ]
-    },
-    {
-        "categoryId": "02",
-        "category": "FRONT END-DEVELOPER",
-        "blogs": [
-            {
-                "blogId": "301",
-                "bannerImage": "banner1.jpg",
-                "title": "Title 1",
-                "subtitle": "Subtitle 1",
-                "postDate": "2023-12-07",
-                "author": [
-                    {
-                        "authorId": "77",
-                        "image": "image.png",
-                        "name": "Khan"
-                    }
-                ],
-                "postedByImage": "author1.jpg",
-                "article": "Lorem ipsum dolor sit amet.",
-                "image": "article1.jpg"
-            },
-            {
-                "blogId": "302",
-                "bannerImage": "banner1.jpg",
-                "title": "Title 1",
-                "subtitle": "Subtitle 1",
-                "postDate": "2023-12-07",
-                "author": [
-                    {
-                        "authorId": "77",
-                        "image": "image.png",
-                        "name": "Khan"
-                    }
-                ],
-                "postedByImage": "author1.jpg",
-                "article": "Lorem ipsum dolor sit amet.",
-                "image": "article1.jpg"
-            },
-            {
-                "blogId": "303",
-                "bannerImage": "banner1.jpg",
-                "title": "Title 1",
-                "subtitle": "Subtitle 1",
-                "postDate": "2023-12-07",
-                "author": [
-                    {
-                        "authorId": "77",
-                        "image": "image.png",
-                        "name": "Khan"
-                    }
-                ],
-                "postedByImage": "author1.jpg",
-                "article": "Lorem ipsum dolor sit amet.",
-                "image": "article1.jpg"
-            }
-        ]
-    },
-    {
-        "categoryId": "03",
-        "category": "BACK END-DEVELOPER",
-        "blogs": [
-            {
-                "blogId": "401",
-                "bannerImage": "banner1.jpg",
-                "title": "Title 1",
-                "subtitle": "Subtitle 1",
-                "postDate": "2023-12-07",
-                "author": [
-                    {
-                        "authorId": "77",
-                        "image": "image.png",
-                        "name": "Khan"
-                    }
-                ],
-                "postedByImage": "author1.jpg",
-                "article": "Lorem ipsum dolor sit amet.",
-                "image": "article1.jpg"
-            },
-            {
-                "blogId": "402",
-                "bannerImage": "banner1.jpg",
-                "title": "Title 1",
-                "subtitle": "Subtitle 1",
-                "postDate": "2023-12-07",
-                "author": [
-                    {
-                        "authorId": "77",
-                        "image": "image.png",
-                        "name": "Khan"
-                    }
-                ],
-                "postedByImage": "author1.jpg",
-                "article": "Lorem ipsum dolor sit amet.",
-                "image": "article1.jpg"
-            },
-            {
-                "blogId": "403",
-                "bannerImage": "banner1.jpg",
-                "title": "Title 1",
-                "subtitle": "Subtitle 1",
-                "postDate": "2023-12-07",
-                "author": [
-                    {
-                        "authorId": "77",
-                        "image": "image.png",
-                        "name": "Khan"
-                    }
-                ],
-                "postedByImage": "author1.jpg",
-                "article": "Lorem ipsum dolor sit amet.",
-                "image": "article1.jpg"
-            }
-        ]
-    },
-    {
-        "categoryId": "04",
-        "category": "DATA ANALYSIS",
-        "blogs": [
-            {
-                "blogId": "501",
-                "bannerImage": "banner1.jpg",
-                "title": "Title 1",
-                "subtitle": "Subtitle 1",
-                "postDate": "2023-12-07",
-                "author": [
-                    {
-                        "authorId": "77",
-                        "image": "image.png",
-                        "name": "Khan"
-                    }
-                ],
-                "postedByImage": "author1.jpg",
-                "article": "Lorem ipsum dolor sit amet.",
-                "image": "article1.jpg"
-            },
-            {
-                "blogId": "502",
-                "bannerImage": "banner1.jpg",
-                "title": "Title 1",
-                "subtitle": "Subtitle 1",
-                "postDate": "2023-12-07",
-                "author": [
-                    {
-                        "authorId": "77",
-                        "image": "image.png",
-                        "name": "Khan"
-                    }
-                ],
-                "postedByImage": "author1.jpg",
-                "article": "Lorem ipsum dolor sit amet.",
-                "image": "article1.jpg"
-            },
-            {
-                "blogId": "503",
-                "bannerImage": "banner1.jpg",
-                "title": "Title 1",
-                "subtitle": "Subtitle 1",
-                "postDate": "2023-12-07",
-                "author": [
-                    {
-                        "authorId": "77",
-                        "image": "image.png",
-                        "name": "Khan"
-                    }
-                ],
-                "postedByImage": "author1.jpg",
-                "article": "Lorem ipsum dolor sit amet.",
-                "image": "article1.jpg"
-            }
-        ]
-    }
+  {
+    "category": "UI/UX DESIGN",
+    "bannerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS54jlVvQn3JEa31YDoeVifIIscG_MyBpRXPw&usqp=CAU",
+    "title": "The Art of User Interface Design",
+    "subtitle": " Exploring principles, trends, and best practices in creating visually appealing and user-friendly interfaces.",
+    "postDate": "2023-12-07",
+    "author": [
+      {
+        "authorId": "77",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwme89cM8YZvHcybGrZl_Obd9U9p5QabozJQ&usqp=CAU",
+        "name": "Shaon bishwas"
+      }
+    ],
+    "article": "So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpdhp_N6n1ZWc6RKTaQSLRNvxs6jOi2Ojkxg&usqp=CAU"
+  },
+  {
+    "category": "UI/UX DESIGN",
+    "bannerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpdhp_N6n1ZWc6RKTaQSLRNvxs6jOi2Ojkxg&usqp=CAU",
+    "title": "UX Research Unveiled",
+    "subtitle": " A deep dive into the methods and importance of user experience research for designing products that truly resonate with users.",
+    "postDate": "2023-12-07",
+    "author": [
+      {
+        "authorId": "77",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwme89cM8YZvHcybGrZl_Obd9U9p5QabozJQ&usqp=CAU",
+        "name": "Mahsin Mia"
+      }
+    ],
+    "article": "So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTImFJmnyqDi9VdQ8PLyQI-Uc2xYN8_YIwhmA&usqp=CAU"
+  },
+  {
+    "category": "FRONT END-DEVELOPER",
+    "bannerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTImFJmnyqDi9VdQ8PLyQI-Uc2xYN8_YIwhmA&usqp=CAU",
+    "title": "The Psychology Behind UI/UX Decisions",
+    "subtitle": "Understanding how cognitive psychology influences user behavior and designing interfaces that align with user expectations.",
+    "postDate": "2023-12-07",
+    "author": [
+      {
+        "authorId": "77",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwme89cM8YZvHcybGrZl_Obd9U9p5QabozJQ&usqp=CAU",
+        "name": "Robin mia"
+      }
+    ],
+    "article": "So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.So I thought this would be a great time to go out there and find some of the best articles that will give new designers a head start in this game. A couple of articles that would provide some direction and insight for those interested in this domain.",
+    "image": ""
+  }
 ]
