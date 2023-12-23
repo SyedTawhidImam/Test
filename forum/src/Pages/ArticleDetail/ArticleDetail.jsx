@@ -2,6 +2,8 @@ import { Link, useLoaderData } from "react-router-dom";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { CiBookmark } from "react-icons/ci";
+import userImg from "../../assets/user.png"
+import defaultBanner from "../../assets/emptyimg.jpg"
 const ArticleDetail = () => {
 
   const blog = useLoaderData()
@@ -48,18 +50,18 @@ const ArticleDetail = () => {
         </div>
       </div>
       <div className="w-full">
-        <img src={blog.bannerImage} alt="" className="w-full h-96" />
+        <img src={blog?.bannerImage || defaultBanner} alt="" className="w-full h-96" />
         <div className="bg-[#F3F3F3] md:px-16 px-8 py-8 space-y-8 rounded-b-lg">
           <div className="md:flex space-y-5 md:space-y-0 justify-between">
             <div className="flex gap-5 items-center">
               <img
-                src={blog.author[0].image}
+                src={blog?.author[0].image || userImg}
                 alt="Profle"
                 className="w-14 h-14 rounded-full"
               />
               <div>
-                <h1 className="font-bold">{blog.author[0].name}</h1>
-                <p>{blog.postDate}</p>
+                <h1 className="font-bold">{blog?.author[0].name}</h1>
+                <p>{blog?.postDate}</p>
               </div>
             </div>
             <p className="flex items-center gap-1">
@@ -67,17 +69,17 @@ const ArticleDetail = () => {
             </p>
           </div>
           <div className="space-y-3">
-            <h1 className="font-bold text-4xl">{blog.title}</h1>
+            <h1 className="font-bold text-4xl">{blog?.title}</h1>
             <h1 className="font-semibold text-2xl text-gray-500">
-              {blog.subtitle}
+              {blog?.subtitle}
             </h1>
           </div>
           <p className="text-gray-400">
-            {blog.article.slice(0, articleLength / 2)}
+            {blog?.article.slice(0, articleLength / 2)}
           </p>
-          <img src={blog.image} alt="" className="h-60" />
+          {blog?.image && <img src={blog?.image} alt="" className="h-60" />}
           <p className="text-gray-400">
-            {blog.article.slice(articleLength / 2)}
+            {blog?.article.slice(articleLength / 2)}
           </p>
         </div>
       </div>

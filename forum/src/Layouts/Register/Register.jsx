@@ -1,15 +1,55 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
+import { useContext } from "react";
+import { AuthContext } from "../../Provider/AuthProvider/AuthProvider";
+import axios from "axios";
+import Swal from "sweetalert2";
 
 const Register = () => {
+  const { createUser, setLoading } = useContext(AuthContext);
+  const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
     const name = form.name.value;
     const email = form.email.value;
     const password = form.password.value;
-    alert(`from submit  ${name}, ${email}, ${password}`);
+    const userInfo = { name, email, image: "", role: "user" };
+    createUser(email, password)
+      .then(() => {
+        axios
+          .post("https://forum-server-six.vercel.app/v1/user", userInfo)
+          .then((res) => {
+            if (res.data.insertedId) {
+              // console.log("user added to the database");
+              // reset();
+              Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "User created successfully.",
+                showConfirmButton: false,
+                timer: 1500,
+              });
+              navigate("/");
+            }
+          });
+        Swal.fire({
+          title: "Success",
+          text: "Successfully Registered",
+          icon: "success",
+          confirmButtonText: "Continue",
+        });
+      })
+      .catch((error) => {
+        setLoading(false);
+        Swal.fire({
+          title: "Error!",
+          text: `${error.message}`,
+          icon: "error",
+          confirmButtonText: "Try Again",
+        });
+      });
   };
   return (
     <>

@@ -12,9 +12,9 @@ const Banner = () => {
         <div className="text-white">
           <p className="text-3xl">Learn New Technology</p>
           <h1 className="text-6xl font-bold mt-2">
-          CodeCraft Hub:
+          Dahuk :
           </h1>
-          <p className="text-5xl mt-2">Unleashing IT Brilliance Where Professionals Share Expertise</p>
+          <p className="text-5xl mt-2">Fuel your passion,and become a part of something extraordinary </p>
           <button className="py-3 px-6 mt-5 bg-[#B68C5A] text-white  rounded-md">Get Started</button>
         </div>
       </div>

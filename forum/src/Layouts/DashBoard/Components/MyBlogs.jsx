@@ -51,7 +51,7 @@ const MyBlogs = () => {
                 <button className="btn btn-ghost btn-xs">Details..</button>
               </td>
               <td>
-                <Link to="/dashboard/updateblog">
+                <Link to={`/dashboard/updateblog/${'j'}`}>
                   <button className="btn btn-ghost btn-xs text-green-600">
                     Update
                   </button>

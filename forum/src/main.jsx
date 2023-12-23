@@ -20,55 +20,60 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
-    errorElement:<ErrorElement></ErrorElement>,
+    errorElement: <ErrorElement></ErrorElement>,
     children: [
       {
         path: "/",
         element: <Home></Home>,
       },
       {
-        path:'articledetails/:id',
-        element:<ArticleDetail></ArticleDetail>,
-        loader: ({params})=>fetch(`https://forum-server-six.vercel.app/v1/blogs/${params.id}`)
-      }
+        path: "articledetails/:id",
+        element: <ArticleDetail></ArticleDetail>,
+        loader: ({ params }) =>
+          fetch(`https://forum-server-six.vercel.app/v1/blogs/${params.id}`),
+      },
     ],
   },
   {
     path: "/login",
     element: <Login></Login>,
-    errorElement:<ErrorElement></ErrorElement>
+    errorElement: <ErrorElement></ErrorElement>,
   },
   {
     path: "/register",
     element: <Register></Register>,
-    errorElement:<ErrorElement></ErrorElement>
+    errorElement: <ErrorElement></ErrorElement>,
   },
   {
     path: "/dashboard",
     element: <Dashboard></Dashboard>,
-    errorElement:<ErrorElement></ErrorElement>,
-    children:[
+    errorElement: <ErrorElement></ErrorElement>,
+    children: [
       {
-        path:'/dashboard',
-        element:<MyHome></MyHome>
+        path: "/dashboard",
+        element: <MyHome></MyHome>,
       },
       {
-        path:'addblog',
-        element:<AddBlogs></AddBlogs>
+        path: "addblog",
+        element: <AddBlogs></AddBlogs>,
       },
       {
-        path:'updateblog',
-        element:<UpdateBlog></UpdateBlog>
+        path: "updateblog/:id",
+        element: <UpdateBlog></UpdateBlog>,
+        loader: ({ params }) =>
+          fetch(
+            `https://forum-server-six.vercel.app/v1/updateblog/${params.id}`
+          ),
       },
       {
-        path:'manageusers',
-        element:<ManageUsers></ManageUsers>
+        path: "manageusers",
+        element: <ManageUsers></ManageUsers>,
       },
       {
-        path:'myblogs',
-        element:<MyBlogs></MyBlogs>
+        path: "myblogs",
+        element: <MyBlogs></MyBlogs>,
       },
-    ]
+    ],
   },
 ]);
 
