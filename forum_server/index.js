@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+var moment = require('moment')
 require("dotenv").config();
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 // const jwt = require("jsonwebtoken");
@@ -72,7 +73,47 @@ async function run() {
       const result = await blogCollection.findOne(query)
       res.send(result)
     })
+    app.get('/v1/user', async(req, res)=>{
+      const email = req.query.email
+      const result = await userCollection.findOne({email})
+      res.send(result)
+    })
 
+
+    //POST APIS
+    app.post('/v1/addblog', async(req, res)=>{
+      const body = req.body
+      const date = moment().format().split('T')
+      body.postDate = date[0]
+      const result = await blogCollection.insertOne(body)
+      res.send(result)
+    })
+    app.post('/v1/user', async(req, res)=>{
+      const user = req.body
+      const result = await userCollection.insertOne(user)
+      console.log(user)
+      res.send(result)
+    })
+
+    //MODIFY APIS
+    app.put('/v1/updateblog/:id', async(req, res)=>{
+      const id = req.params.id
+      const body = req.body
+      const query = {_id: new ObjectId(id)}
+      const updateDoc = {
+        $set:{
+          category:body.category,
+          bannerImage:body.bannerImage,
+          title:body.title,
+          subtitle:body.subtitle,
+          article:body.article,
+          image:body.image
+        }
+      }
+      console.log(body)
+      // const result = await blogCollection.updateOne(query, updateDoc)
+      res.send({result:'success'})
+    })
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(
